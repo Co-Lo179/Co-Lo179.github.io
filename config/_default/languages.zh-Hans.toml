@@ -1,0 +1,22 @@
+locale = "zh-CN"
+label = "中文 (简体)"
+direction = "ltr"
+weight = 1
+
+title = "我的个人主页"
+copyright = "&copy; 2024"
+
+[params]
+  dateFormat = "2006年1月2日"
+
+  mainSections = ["posts"]
+  description = "基于 Hugo Congo 主题的个人主页"
+
+[params.author]
+  name = "我的名字"
+  image = "img/author.jpg"
+  headline = "你好，欢迎来到我的主页！"
+  bio = "这是一个基于 Hugo Congo 主题构建的个人主页。在这里分享我的项目和想法。"
+  links = [
+    { github = "https://github.com/" },
+  ]

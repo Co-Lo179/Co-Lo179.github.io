@@ -1,0 +1,26 @@
+# -- Site Configuration --
+# Use Congo theme
+baseURL = "https://Co-Lo179.github.io/hugo/zhuye"
+theme = "congo"
+defaultContentLanguage = "zh-Hans"
+
+enableRobotsTXT = true
+summaryLength = 0
+
+[pagination]
+  pagerSize = 15
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[privacy]
+  [privacy.vimeo]
+    enableDNT = true
+  [privacy.x]
+    enableDNT = true
+  [privacy.youTube]
+    privacyEnhanced = true
+
+[services]
+  [services.x]
+    disableInlineCSS = true

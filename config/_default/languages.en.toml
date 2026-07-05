@@ -1,0 +1,22 @@
+locale = "en-US"
+label = "English"
+direction = "ltr"
+weight = 2
+
+title = "My Homepage"
+copyright = "&copy; 2024"
+
+[params]
+  dateFormat = "2 January 2006"
+
+  mainSections = ["posts"]
+  description = "Personal homepage built with Hugo Congo theme"
+
+[params.author]
+  name = "My Name"
+  image = "img/author.jpg"
+  headline = "Hello, welcome to my homepage!"
+  bio = "This is a personal homepage built with Hugo Congo theme."
+  links = [
+    { github = "https://github.com/" },
+  ]

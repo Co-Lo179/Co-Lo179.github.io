@@ -1,0 +1,59 @@
+# -- Theme Options --
+# 主题参数配置
+
+colorScheme = "congo"
+defaultAppearance = "light" # 可选: light 或 dark
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+enableImageLazyLoading = true
+enableImageWebp = true
+enableQuicklink = true
+
+fingerprintAlgorithm = "sha256"
+
+[header]
+  layout = "basic" # 可选: basic, hamburger, hybrid, custom
+  showTitle = true
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile" # 个人主页模式: page, profile, custom
+  showRecent = true
+  recentLimit = 5
+
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = false
+  showWordCount = false
+  showComments = false
+
+[list]
+  showBreadcrumbs = true
+  showSummary = false
+  showTableOfContents = true
+  showTaxonomies = false
+  groupByYear = false
+  paginationWidth = 1
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+  showTermCount = true
